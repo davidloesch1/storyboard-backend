@@ -58,7 +58,7 @@ SIMPLE_JWT = {
 # Application definition
 
 INSTALLED_APPS = [
-    'storyboard.apps.StoryboardConfig',
+    'storyboard',
     'accounts',
     'django.contrib.admin',
     'django.contrib.auth',
