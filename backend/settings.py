@@ -117,9 +117,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'storyboard',
-        'USER': 'davidloesch',
-        'PASSWORD': 'Yikapav3',
-        'HOST': 'localhost'
+        # 'USER': 'davidloesch',
+        # 'PASSWORD': 'Yikapav3',
+        # 'HOST': 'localhost'
     }
 }
 
