@@ -28,7 +28,9 @@ SECRET_KEY = 'nf=-rzns89bjmx0ro*5yskh&qcc7!tmwr#wj)$n53l#=5nxr_p'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'storyboard-app-backend.herokuapp.com'
+]
 
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(minutes=120),
