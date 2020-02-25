@@ -1,1 +1,1 @@
-web: gunicorn storyboard.wsgi --log-file -
+web: python manage.py runserver
