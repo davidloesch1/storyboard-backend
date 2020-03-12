@@ -15,15 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include, re_path
-# from django.conf.urls import url 
-# from django.contrib.auth.models import User
-# from storyboard import views
-# from rest_framework import routers, serializers, viewsets
-
-
 
 urlpatterns = [
-    # path('', include('frontend.urls')),
     path('', include('storyboard.urls')),
     path('admin/', admin.site.urls),
     path('', include('accounts.urls'))
